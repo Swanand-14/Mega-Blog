@@ -8,6 +8,10 @@ import SignUp from "./SignUp";
 import Login from './Login'
 import PostCard from './PostCard'
 import PostForm from './Postform/PostForm'
+import Protected from "./Protected";
+import Button from './Button'
+import Input from "./Input";
+import Select from './Select'
 export{
-    Footer,Header,Container,LogoutBtn,Logo,RTE,SignUp,Login,PostCard,PostForm
+    Button,Footer,Header,Container,LogoutBtn,Logo,RTE,SignUp,Login,PostCard,PostForm,Protected,Input,Select
 }

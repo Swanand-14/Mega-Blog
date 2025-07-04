@@ -11,7 +11,7 @@ export class Authservice{
         try {
             const userAccount = await this.account.create(ID.unique(),email,password,name);
             if (userAccount) {
-                return this.login(email,passowrd);
+                return this.login(email,password);
                 
             } else {
                 return userAccount;
@@ -35,10 +35,13 @@ export class Authservice{
            return await this.account.get();
             
         } catch (error) {
+             if (error?.type === "AppwriteException") {
+                return null;
+            }
             throw error;
             
         }
-        return null;
+        
     }
     async logout(){
         try {

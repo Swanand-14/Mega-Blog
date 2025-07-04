@@ -3,12 +3,13 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import {useDispatch} from 'react-redux'
-import Header from './components/Header/Header'
-import Footer from './components/Footer/Footer'
+import Header from './components/Header/Header.jsx'
+import Footer from './components/Footer/Footer.jsx'
 
 import authService from './appwrite/auth'
 import { useEffect } from 'react'
 import { login,logout } from './store/authSlice'
+
 
 function App() {
   const [loading,setloading] = useState(true)
@@ -37,7 +38,7 @@ function App() {
        </main>
        <Footer/>
       </div>
-      HAHA</div>
+      </div>
   ):null
 }
 

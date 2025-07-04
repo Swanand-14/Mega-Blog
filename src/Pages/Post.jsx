@@ -4,7 +4,7 @@ import service from "../appwrite/config";
 import { Button, Container } from "../components";
 import parse from "html-react-parser";
 import { useSelector } from "react-redux";
-import service from "../appwrite/config";
+
 
 export default function Post() {
     const [post, setPost] = useState(null);
