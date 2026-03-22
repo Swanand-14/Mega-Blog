@@ -9,22 +9,22 @@ function Header() {
   const navigate = useNavigate()
   const navItems = [
     {
-      name: 'Homeee',
+      name: 'Home',
       slug: "/",
       active: true
     }, 
     {
-      name: "Loginnn",
+      name: "Login",
       slug: "/login",
       active: !authStatus,
   },
   {
-      name: "signuppp",
+      name: "signup",
       slug: "/signup",
       active: !authStatus,
   },
   {
-      name: "All Posts",
+      name: "All Postsssssss",
       slug: "/all-posts",
       active: authStatus,
   },

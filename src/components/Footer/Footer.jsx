@@ -79,7 +79,7 @@ function Footer() {
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
                                         to="/"
                                     >
-                                        Help
+                                        Helpsss
                                     </Link>
                                 </li>
                                 <li className="mb-4">
@@ -87,7 +87,7 @@ function Footer() {
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
                                         to="/"
                                     >
-                                        Contact Us
+                                        Contact Ussss
                                     </Link>
                                 </li>
                                 <li>
